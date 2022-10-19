@@ -1,0 +1,11 @@
+.chart_container {
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    gap: $gap-chart;
+    border-bottom: $Cream 0.1rem solid;
+
+    @media(max-width: 37.5rem) {
+        gap: $gap-chart-mobile
+    };
+}

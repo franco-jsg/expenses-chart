@@ -1,0 +1,32 @@
+.balance_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $p-y-container $p-x-container;
+    margin-bottom: 1rem;
+    background-color: $Soft-red;
+    border-radius: $br-1;
+}
+
+.balance_info {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-info;
+
+    span {
+        font-size: $font-size-1;
+        color: $Cream;
+    }
+
+    p {
+        font-size: $font-size-2;
+        color: $Cream;
+        font-weight: 700;  
+    }
+
+    @media(max-width: $mobile) {
+        p {
+            font-size: $font-size-mobile-2
+        }
+    };
+}

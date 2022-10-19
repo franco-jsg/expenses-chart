@@ -1,0 +1,19 @@
+.spendings_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: $p-y-container $p-x-container;
+    background-color: $White;
+    border-radius: $br-1;
+}
+
+h1 {
+    font-size: $font-size-2;
+    margin-bottom: 1rem;
+}
+
+@media(max-width: $mobile) {
+    h1 {
+        font-size: $font-size-mobile-2
+    }
+};

@@ -1,0 +1,20 @@
+.day_container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    gap: $gap-info;
+    width: 15%;
+    margin-bottom: 1rem;
+}
+
+.day_amount {
+    height: 7rem;
+    background-color: $Soft-red;
+    border-radius: $br-2;
+}
+
+.day_info {
+    font-size: $font-size-1;
+    color: $Medium-brown;
+    text-align: center;
+}
